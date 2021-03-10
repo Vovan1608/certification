@@ -1,8 +1,19 @@
-
-const daysOfWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
+/* 
+По дате необходимо вернуть день недели
+*/
+const daysOfWeek = [
+  "Sunday",
+  "Monday",
+  "Tuesday",
+  "Wednesday",
+  "Thursday",
+  "Friday",
+  "Saturday",
+];
 
 function getDayOfWeak(date) {
-	return daysOfWeek[new Date(date).getDay()];
+  // getDay() возвращает день недели от 0 до 6
+  return daysOfWeek[new Date(date).getDay()];
 }
 
 const dat = "03/07/2021";
