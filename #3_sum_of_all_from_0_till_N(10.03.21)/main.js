@@ -7,9 +7,7 @@ summation(8) -> 36
 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8
 */
 
-var summation = function (num) {
-  return (num * (num + 1)) / 2;
-};
+var summation = num => num * (num + 1) / 2;
 
 const res = summation(6);
 console.log(res);

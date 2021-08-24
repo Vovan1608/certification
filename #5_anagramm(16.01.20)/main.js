@@ -1,5 +1,5 @@
 function anagramm(str_1, str_2) {
-  return sortStr(str_1) === sortStr(str_2) ? true : false;
+  return sortStr(str_1) === sortStr(str_2);
 }
 
 function sortStr(string) {
